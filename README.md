@@ -17,7 +17,7 @@ https://github.com/Bellzylu/pokedex/assets/101601962/7d0d1212-95ad-45aa-bf4a-e33
 
 ## Getting Started 👩🏽‍🔬
 
-Install bun [here](https://bun.sh/docs/installation) if you don't have it already.
+Install bun [here](https://bun.sh/docs/installation) if you don't have it installed already.
 
 Install dependencies:
 
@@ -32,7 +32,7 @@ bun dev
 ```
 
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) with your browser.
 
 
 
@@ -61,13 +61,12 @@ use TypeScript, React and Tailwind. You can click [here](https://nextjs.org/docs
 ## Contributions 👨‍🚒
 
 Feel free to create a PR with suggestions and extra features! You can also play around with the
-different backgrounds that I have added to the project (they are made with AI).
+different backgrounds added to the project (they are made with AI).
 
- If you create new components, please use the "Template.tsx" as a template, and follow the existing structure so that we can keep the code consistent and clean! 
+ If you create new components, please use the "Template.tsx" as a template, and follow the existing structure so that the code is kept consistent and clean! 
  
  However, if you want to use Zod or other liberaries for type safety,
-and use the [PokeApi](https://pokeapi.co/docs/v2) directly instead, go ahead and replace the existing solution! 
-
+ and use the [PokeApi](https://pokeapi.co/docs/v2) directly instead, go ahead and replace the existing solution! 
 
 
 
