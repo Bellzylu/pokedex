@@ -1,18 +1,17 @@
 import { ComponentPropsWithoutRef } from "react";
+import { cn } from "@/styles/utils";
 
 export type TemplateProps = {
-  // Props here
+  // <- Props here
 } & ComponentPropsWithoutRef<"div">;
 
 export function Template({ children, className, ...props }: TemplateProps) {
   return (
     <div
-      className={[
-        className, //External classes passed to the component
-        "", // Add global classes here
-      ]
-        .filter(Boolean) // Remove Empty strings
-        .join(" ")}
+      className={cn(
+        "", // <- Base style here
+        className
+      )}
       {...props}>
       {children}
     </div>
